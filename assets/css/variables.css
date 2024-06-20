@@ -12,27 +12,11 @@ body {
     --cards-spacing: 10px;
     --cards-spacing-in: 15px;
     --cards-spacing-x: 12.5px;
-
-    --cards-width: 12vw;
-    --cards-height: 12vw;
-    --cards-size-mini: 10vw;
-}
-
-@media screen and (max-width: 1350px) {
-    body {
-        --cards-width: 31vw;
-        --cards-height: 31vw;
-        --cards-size-mini: 20vw;
-        --cards-spacing-x: 0;
-    }
 }
 
 
 @media screen and (max-width: 480px){
     body {
-        --cards-width: 155px;
-        --cards-height: 155px;
-        --cards-size-mini: 155px;
         --cards-spacing-x: 0;
     }
 }

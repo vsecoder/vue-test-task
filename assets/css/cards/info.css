@@ -1,10 +1,16 @@
 .cards__blocks-info {
-    grid-template-columns: repeat(3, var(--cards-width));
-    grid-template-rows: repeat(2, var(--cards-height));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--cards-spacing)
 }
 
 .cards__block-info {
     background-color: var(--green);
+}
+
+.cards__block-info:nth-child(1) {
+    aspect-ratio: 1 / 1;
 }
 
 @media screen and (max-width: 640px) {

@@ -1,18 +1,15 @@
 .cards {
-    width: fit-content;
+    width: 768px;
+    max-width: 100%;
     margin: 0 auto;
     padding: var(--cards-spacing);
     padding-left: var(--cards-spacing-x);
     padding-right: var(--cards-spacing-x);
     font-size: 14px;
     font-weight: 400;
-    display: grid;
-    gap: var(--cards-spacing);
-}
 
-.cards__blocks {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(auto, 100%));
     gap: var(--cards-spacing);
 }
 
