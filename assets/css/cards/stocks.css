@@ -5,6 +5,10 @@
     gap: var(--cards-spacing)
 }
 
+.cards__block-stocks:nth-child(1) {
+    aspect-ratio: 1 / 1;
+}
+
 .cards__block-stocks:nth-child(2) {
     grid-column: span 2;
 }
@@ -13,9 +17,6 @@
     background-color: var(--yellow);
 }
 
-.cards__block-stocks:nth-child(1) {
-    aspect-ratio: 1 / 1;
-}
 
 @media screen and (max-width: 480px) {
     .cards__blocks-stocks {

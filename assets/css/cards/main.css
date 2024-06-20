@@ -2,9 +2,7 @@
     width: 768px;
     max-width: 100%;
     margin: 0 auto;
-    padding: var(--cards-spacing);
-    padding-left: var(--cards-spacing-x);
-    padding-right: var(--cards-spacing-x);
+    padding: var(--cards-spacing) var(--cards-spacing-x);
     font-size: 14px;
     font-weight: 400;
 

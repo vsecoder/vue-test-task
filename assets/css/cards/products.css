@@ -5,16 +5,16 @@
     gap: var(--cards-spacing)
 }
 
-.cards__block-products:nth-child(4) {
-    grid-column: span 2;
-}
-
 .cards__block-products {
     background-color: var(--light-gray);
 }
 
 .cards__block-products:nth-child(1) {
     aspect-ratio: 1 / 1;
+}
+
+.cards__block-products:nth-child(4) {
+    grid-column: span 2;
 }
 
 @media screen and (max-width: 480px) {
