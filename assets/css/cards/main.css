@@ -1,0 +1,37 @@
+.cards {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: var(--cards-spacing);
+    padding-left: var(--cards-spacing-x);
+    padding-right: var(--cards-spacing-x);
+    font-size: 14px;
+    font-weight: 400;
+    display: grid;
+    gap: var(--cards-spacing);
+}
+
+.cards__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--cards-spacing);
+}
+
+.cards__blocks__block {
+    position: relative;
+
+    p {
+        position: absolute;
+        line-height: 20px;
+        bottom: var(--cards-spacing-in);
+        left: var(--cards-spacing-in);
+        right: var(--cards-spacing-in);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cards {
+        max-width: 320px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}

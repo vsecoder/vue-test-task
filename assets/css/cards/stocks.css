@@ -1,0 +1,34 @@
+.cards__blocks-stocks {
+    grid-template-columns: repeat(3, var(--cards-fr));
+    grid-template-rows: repeat(2, var(--cards-fr-mini));
+}
+
+.cards__block-stocks:nth-child(2) {
+    grid-column: span 2;
+}
+
+.cards__block-stocks {
+    background-color: var(--yellow);
+}
+
+@media screen and (max-width: 480px) {
+    .cards__blocks-stocks {
+        width: fit-content;
+        grid-template-columns: repeat(2, var(--cards-fr));
+        grid-template-rows: repeat(3, var(--cards-fr-mini));
+    }
+
+    .cards__block-stocks:nth-child(2) {
+        grid-row-start: 1;
+    }
+
+    .cards__block-stocks:nth-child(3) {
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .cards__block-stocks:nth-child(5) {
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+}

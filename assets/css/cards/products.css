@@ -1,0 +1,24 @@
+.cards__blocks-products {
+    grid-template-columns: repeat(3, var(--cards-fr));
+    grid-template-rows: repeat(2, var(--cards-fr-mini));
+}
+
+.cards__block-products:nth-child(4) {
+    grid-column: span 2;
+}
+
+.cards__block-products {
+    background-color: var(--light-gray);
+}
+
+@media screen and (max-width: 480px) {
+    .cards__blocks-products {
+        width: fit-content;
+        grid-template-columns: repeat(2, var(--cards-fr));
+        grid-template-rows: repeat(3, var(--cards-fr-mini));
+    }
+
+    .cards__block-products:nth-child(4) {
+        grid-row-start: 2;
+    }
+}

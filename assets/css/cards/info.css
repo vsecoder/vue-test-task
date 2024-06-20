@@ -1,0 +1,14 @@
+.cards__blocks-info {
+    grid-template-columns: repeat(3, var(--cards-fr));
+    grid-template-rows: repeat(2, var(--cards-fr));
+}
+
+.cards__block-info {
+    background-color: var(--green);
+}
+
+@media screen and (max-width: 480px) {
+    .cards__blocks-info {
+        display: none;
+    }
+}

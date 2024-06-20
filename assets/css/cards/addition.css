@@ -1,0 +1,102 @@
+.card-pink {
+    background-color: var(--pink);
+}
+
+.card-blue {
+    background-color: var(--blue);
+}
+
+.card-light-blue {
+    background-color: var(--light-blue);
+}
+
+.card-red {
+    background-color: var(--red);
+}
+
+.card-img {
+    background-image: url(/public/wash.png);
+    color: white;
+    cursor: pointer;
+}
+
+/* big card */
+.card-block-big {
+    grid-column: span 2;
+    grid-row: span 2;
+
+    padding: var(--cards-spacing);
+
+    p {
+        position: static;
+    }
+}
+
+.card-block-big:first-child {
+    padding-top: 30px;
+    padding-left: 25px;
+    text-align: center;
+
+    p {
+        width: 421px;
+        font-weight: 400;
+        font-size: 18.11px;
+        line-height: 26.16px;
+    }
+}
+
+.card-block-big:nth-child(2) {
+    padding: 50px;
+
+    p {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        gap: 5px;
+
+        span {
+            display: inline-block;
+        }
+
+        span:first-child {
+            text-align: left;
+            font-weight: 700;
+            width: fit-content;
+        }
+
+        span:nth-child(2) {
+            text-align: center;
+            font-weight: 400;
+            border-bottom: 1px dashed #71787F;
+            flex-grow: 1;
+        }
+
+        span:last-child {
+            text-align: right;
+            width: fit-content;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-block-big:first-child {
+        padding-top: 19.78px;
+        padding-left: 9.9px;
+        text-align: center;
+        overflow-y: auto;
+
+        p {
+            width: 100%;
+            font-weight: 400;
+            font-size: 18.11px;
+            line-height: 26.16px;
+        }
+    }
+
+    .card-block-big {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}

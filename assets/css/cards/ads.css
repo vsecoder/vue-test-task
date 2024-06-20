@@ -1,0 +1,20 @@
+.cards__blocks-ads {
+    grid-template-columns: repeat(3, var(--cards-fr));
+    grid-template-rows: repeat(2, var(--cards-fr));
+}
+
+.cards__block-ads {
+    color: white;
+    background-color: var(--gray);
+}
+
+@media screen and (max-width: 480px) {
+    .cards__blocks-ads {
+        grid-row-start: 2;
+    }
+
+    .cards__blocks-ads {
+        grid-template-columns: repeat(2, var(--cards-fr));
+        grid-template-rows: repeat(2, var(--cards-fr));
+    }
+}

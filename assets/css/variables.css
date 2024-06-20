@@ -1,0 +1,26 @@
+body {
+    --black: #323C46;
+    --gray: #71787F;
+    --light-gray: #F1F2F2;
+    --pink: #FFC1C1;
+    --blue: #85B1F9;
+    --light-blue: #D9EAFF;
+    --green: #C3F3E2;
+    --yellow: #FFF48E;
+    --red: #EE6956;
+
+    --cards-spacing: 10px;
+    --cards-spacing-in: 15px;
+    --cards-spacing-x: 12.5px;
+
+    --cards-fr: 241px;
+    --cards-fr-mini: 155px;
+}
+
+@media screen and (max-width: 480px){
+    body {
+        --cards-fr: 155px;
+        --cards-fr-mini: 155px;
+        --cards-spacing-x: 0;
+    }
+}

@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(default.css);
+@import url(variables.css);
+@import url(layout.css);
+
+@import url(popup.css);
+
+@import url(cards/main.css);
+
+@import url(cards/ads.css);
+@import url(cards/products.css);
+@import url(cards/info.css);
+@import url(cards/stocks.css);
+
+@import url(cards/blur.css);
+@import url(cards/addition.css);
