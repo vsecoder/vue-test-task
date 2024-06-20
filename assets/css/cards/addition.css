@@ -15,7 +15,7 @@
 }
 
 .card-img {
-    background-image: url(/public/wash.png);
+    background-image: url(../../../public/wash.png);
     color: white;
     cursor: pointer;
 }
