@@ -39,6 +39,7 @@
 
     p {
         width: 421px;
+        max-width: 100%;
         font-weight: 400;
         font-size: 18.11px;
         line-height: 26.16px;
@@ -80,7 +81,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
     .card-block-big:first-child {
         padding-top: 19.78px;
         padding-left: 9.9px;

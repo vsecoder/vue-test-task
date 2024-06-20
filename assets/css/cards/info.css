@@ -7,7 +7,7 @@
     background-color: var(--green);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
     .cards__blocks-info {
         display: none;
     }

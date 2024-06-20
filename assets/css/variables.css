@@ -17,7 +17,14 @@ body {
     --cards-fr-mini: 155px;
 }
 
-@media screen and (max-width: 480px){
+@media (max-width: 790px) {
+    body {
+        --cards-fr: 186px;
+        --cards-fr-mini: 120px;
+    }
+}
+
+@media screen and (max-width: 620px){
     body {
         --cards-fr: 155px;
         --cards-fr-mini: 155px;

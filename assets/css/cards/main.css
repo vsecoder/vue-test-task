@@ -1,5 +1,6 @@
 .cards {
     max-width: 768px;
+    width: fit-content;
     margin: 0 auto;
     padding: var(--cards-spacing);
     padding-left: var(--cards-spacing-x);
@@ -28,10 +29,9 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
     .cards {
         max-width: 320px;
-        width: fit-content;
         margin: 0 auto;
     }
 }

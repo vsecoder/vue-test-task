@@ -11,7 +11,7 @@
     background-color: var(--light-gray);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
     .cards__blocks-products {
         width: fit-content;
         grid-template-columns: repeat(2, var(--cards-fr));

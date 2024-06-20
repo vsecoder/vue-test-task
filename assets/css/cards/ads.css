@@ -8,7 +8,7 @@
     background-color: var(--gray);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
     .cards__blocks-ads {
         grid-row-start: 2;
     }
