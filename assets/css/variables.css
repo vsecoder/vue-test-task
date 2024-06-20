@@ -18,10 +18,10 @@ body {
     --cards-size-mini: 10vw;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1350px) {
     body {
-        --cards-width: 24vw;
-        --cards-height: 24vw;
+        --cards-width: 31vw;
+        --cards-height: 31vw;
         --cards-size-mini: 20vw;
         --cards-spacing-x: 0;
     }
