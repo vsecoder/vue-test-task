@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 480px) {
     .card-block-big:first-child {
         padding-top: 19.78px;
         padding-left: 9.9px;

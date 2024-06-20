@@ -13,21 +13,26 @@ body {
     --cards-spacing-in: 15px;
     --cards-spacing-x: 12.5px;
 
-    --cards-fr: 241px;
-    --cards-fr-mini: 155px;
+    --cards-width: 12vw;
+    --cards-height: 12vw;
+    --cards-size-mini: 10vw;
 }
 
-@media (max-width: 790px) {
+@media screen and (max-width: 1400px) {
     body {
-        --cards-fr: 186px;
-        --cards-fr-mini: 120px;
+        --cards-width: 24vw;
+        --cards-height: 24vw;
+        --cards-size-mini: 20vw;
+        --cards-spacing-x: 0;
     }
 }
 
-@media screen and (max-width: 620px){
+
+@media screen and (max-width: 480px){
     body {
-        --cards-fr: 155px;
-        --cards-fr-mini: 155px;
+        --cards-width: 155px;
+        --cards-height: 155px;
+        --cards-size-mini: 155px;
         --cards-spacing-x: 0;
     }
 }
