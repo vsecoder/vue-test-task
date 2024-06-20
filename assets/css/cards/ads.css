@@ -1,6 +1,8 @@
 .cards__blocks-ads {
-    grid-template-columns: repeat(3, var(--cards-width));
-    grid-template-rows: repeat(2, var(--cards-height));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--cards-spacing)
 }
 
 .cards__block-ads {
@@ -8,13 +10,25 @@
     background-color: var(--gray);
 }
 
+.cards__block-ads:nth-child(2) {
+    aspect-ratio: 1 / 1;
+}
+
 @media screen and (max-width: 480px) {
     .cards__blocks-ads {
         grid-row-start: 2;
     }
 
+    .cards__block-ads:nth-child(2) {
+        aspect-ratio: auto;
+    }
+
+    .cards__block-ads:nth-child(1) {
+        aspect-ratio: 2 / 1;
+    }
+
     .cards__blocks-ads {
-        grid-template-columns: repeat(2, var(--cards-width));
-        grid-template-rows: repeat(2, var(--cards-height));
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }

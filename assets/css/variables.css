@@ -13,11 +13,12 @@ body {
     --cards-spacing-in: 15px;
     --cards-spacing-x: 12.5px;
 
-    --cards-width: 12vw;
-    --cards-height: 12vw;
-    --cards-size-mini: 10vw;
+    --cards-width: 4fr;
+    --cards-height: 6fr;
+    --cards-size-mini: 4fr;
 }
 
+/*
 @media screen and (max-width: 1350px) {
     body {
         --cards-width: 31vw;
@@ -26,13 +27,13 @@ body {
         --cards-spacing-x: 0;
     }
 }
-
+*/
 
 @media screen and (max-width: 480px){
     body {
-        --cards-width: 155px;
-        --cards-height: 155px;
-        --cards-size-mini: 155px;
+        --cards-width: 4fr;
+        --cards-height: 6fr;
+        --cards-size-mini: 4fr;
         --cards-spacing-x: 0;
     }
 }
