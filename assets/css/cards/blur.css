@@ -1,4 +1,4 @@
-.cards__block-info__blur {
+.cards__blur {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -8,12 +8,12 @@
     transition: all 0.3s;
 }
 
-.cards__block-info__blur:hover {
+.cards__blur:hover {
     backdrop-filter: blur(10px);
     opacity: 1;
 }
 
-.cards__block-info__blur__alarm {
+.cards__alarm {
     font-size: 36px;
     font-weight: 400;
     width: 61px;

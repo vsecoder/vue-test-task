@@ -5,11 +5,11 @@
     gap: var(--cards-spacing)
 }
 
-.cards__block-info {
+.cards__blocks-info .cards__block {
     background-color: var(--green);
 }
 
-.cards__block-info:nth-child(1) {
+.cards__blocks-info .cards__block:nth-child(1) {
     aspect-ratio: 1 / 1;
 }
 

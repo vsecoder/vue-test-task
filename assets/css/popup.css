@@ -1,8 +1,12 @@
-.popup {
+.disabled {
     display: none;
 }
 
-.popup__overlay {
+.enabled {
+    display: block;
+}
+
+.popup {
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -52,14 +56,14 @@
     }
 }
 
-.popup__content__section {
+.popup__section {
     margin-top: 30px;
 }
 
-.popup__content__section:last-child {
+.popup__section:last-child {
     margin-bottom: 30px;
 }
 
-.popup__header__close {
+.popup__close {
     cursor: pointer;
 }

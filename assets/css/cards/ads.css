@@ -5,12 +5,12 @@
     gap: var(--cards-spacing)
 }
 
-.cards__block-ads {
+.cards__blocks-ads .cards__block {
     color: white;
     background-color: var(--gray);
 }
 
-.cards__block-ads:nth-child(2) {
+.cards__blocks-ads .cards__block:nth-child(2) {
     aspect-ratio: 1 / 1;
 }
 
@@ -19,11 +19,11 @@
         grid-row-start: 2;
     }
 
-    .cards__block-ads:nth-child(2) {
+    .cards__blocks-ads .cards__block:nth-child(2) {
         aspect-ratio: auto;
     }
 
-    .cards__block-ads:nth-child(1) {
+    .cards__blocks-ads .cards__block:nth-child(1) {
         aspect-ratio: 2 / 1;
     }
 

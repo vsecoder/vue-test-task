@@ -5,15 +5,15 @@
     gap: var(--cards-spacing)
 }
 
-.cards__block-stocks:nth-child(1) {
+.cards__blocks-stocks .cards__block:nth-child(1) {
     aspect-ratio: 1 / 1;
 }
 
-.cards__block-stocks:nth-child(2) {
+.cards__blocks-stocks .cards__block:nth-child(2) {
     grid-column: span 2;
 }
 
-.cards__block-stocks {
+.cards__blocks-stocks .cards__block {
     background-color: var(--yellow);
 }
 
@@ -24,16 +24,16 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 
-    .cards__block-stocks:nth-child(2) {
+    .cards__blocks-stocks .cards__block:nth-child(2) {
         grid-row-start: 1;
     }
 
-    .cards__block-stocks:nth-child(3) {
+    .cards__blocks-stocks .cards__block:nth-child(3) {
         grid-row-start: 3;
         grid-column-start: 2;
     }
 
-    .cards__block-stocks:nth-child(5) {
+    .cards__blocks-stocks .cards__block:nth-child(5) {
         grid-row-start: 2;
         grid-column-start: 2;
     }

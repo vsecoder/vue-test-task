@@ -11,7 +11,7 @@
     gap: var(--cards-spacing);
 }
 
-.cards__blocks__block {
+.cards__block {
     position: relative;
 
     p {

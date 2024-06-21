@@ -1,14 +1,14 @@
 window.onload = function() {
     let popup = window.document.querySelector('.popup');
-    let popup_open = window.document.querySelector('.popup-toggle');
-    let popup_close = window.document.querySelector('.popup-close');
-    popup.style.display = 'none';
+    let popup_open = window.document.querySelector('.popup__open');
+    let popup_close = window.document.querySelector('.popup__close');
+    classList = 'popup popup__overlay '
     
     popup_open.onclick = function() {
-        popup.style.display = 'block';
+        popup.classList = classList + 'enabled';
     }
 
     popup_close.onclick = function() {
-        popup.style.display = 'none';
+        popup.classList = classList + 'disabled';
     }
 }

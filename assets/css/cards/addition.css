@@ -1,20 +1,20 @@
-.card-pink {
+.cards__blocks .cards__block-bg-pink {
     background-color: var(--pink);
 }
 
-.card-blue {
+.cards__blocks .cards__block-bg-blue {
     background-color: var(--blue);
 }
 
-.card-light-blue {
+.cards__blocks .cards__block-bg-light-blue {
     background-color: var(--light-blue);
 }
 
-.card-red {
+.cards__blocks .cards__block-bg-red {
     background-color: var(--red);
 }
 
-.card-img {
+.cards__blocks .cards__block-bg-img {
     background-image: url(../../../public/wash.png);
     background-size: contain;
     color: white;
@@ -22,7 +22,7 @@
 }
 
 /* big card */
-.card-block-big {
+.cards__blocks .cards__block-size-big {
     grid-column: span 2;
     grid-row: span 2;
 
@@ -33,7 +33,7 @@
     }
 }
 
-.card-block-big:first-child {
+.cards__blocks .cards__block-size-big:first-child {
     padding-top: 30px;
     padding-left: 25px;
     text-align: center;
@@ -47,7 +47,7 @@
     }
 }
 
-.card-block-big:nth-child(2) {
+.cards__blocks .cards__block-size-big:nth-child(2) {
     padding: 50px;
 
     p {
@@ -83,7 +83,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .card-block-big:first-child {
+    .cards__blocks .cards__block-size-big:first-child {
         padding-top: 19.78px;
         padding-left: 9.9px;
         text-align: center;
@@ -97,7 +97,7 @@
         }
     }
 
-    .card-block-big {
+    .cards__blocks .cards__block-size-big {
         grid-column: span 2;
         grid-row: span 1;
     }

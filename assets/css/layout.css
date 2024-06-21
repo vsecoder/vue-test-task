@@ -5,11 +5,11 @@
     width: 100%;
     padding: 35px;
     text-align: center;
+}
 
-    .title {
-        font-size: 24px;
-        line-height: 20px;
-    }
+.header__title, .footer__title {
+    font-size: 24px;
+    line-height: 20px;
 }
 
 .header__title {

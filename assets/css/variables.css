@@ -1,4 +1,4 @@
-body {
+* {
     --black: #323C46;
     --gray: #71787F;
     --light-gray: #F1F2F2;
@@ -16,7 +16,7 @@ body {
 
 
 @media screen and (max-width: 480px){
-    body {
+    * {
         --cards-spacing-x: 0;
     }
 }
